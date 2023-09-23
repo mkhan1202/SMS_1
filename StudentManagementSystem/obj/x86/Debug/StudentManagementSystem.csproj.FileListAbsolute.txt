@@ -1,0 +1,24 @@
+c:\users\lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentManagementSystem.exe
+c:\users\lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentManagementSystem.pdb
+c:\users\lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.MainForm.resources
+c:\users\lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.exe
+c:\users\lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.pdb
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentManagementSystem.exe.config
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.btnAdd.resources
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.AddDepartmentInfo.resources
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.LoginForm.resources
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.ShiftWiseStudentReport.resources
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.CrystalreportViewer.resources
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.Gender_Wise_Search.resources
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.Semester_Wise_Search.resources
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.Blood_Group_Wise_Report.resources
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.NameWiseStudentSearch.resources
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.DepartmentWiseStudentSearch.resources
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.Add_Teacher.resources
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.UIForm.Add_Book_Info.resources
+C:\Users\Lenovo\documents\visual studio 2010\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.UIForm.Add_Type.resources
+E:\C- Drive Visual Studio\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.exe
+E:\C- Drive Visual Studio\Projects\StudentManagementSystem\StudentManagementSystem\obj\x86\Debug\StudentManagementSystem.pdb

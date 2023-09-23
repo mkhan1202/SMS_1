@@ -1,0 +1,592 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="var" priority="108" />
+      <Item value="new" priority="81" />
+      <Item value="context" priority="22" />
+      <Item value="Convert`0" priority="48" />
+      <Item value="txtStudentId" priority="1" />
+      <Item value="ShiftWiseStudentReport`0" priority="2" />
+      <Item value="obj" priority="63" />
+      <Item value="int" priority="29" />
+      <Item value="ManagementClass`0" priority="17" />
+      <Item value="m" priority="0" />
+      <Item value="cbxShift" priority="7" />
+      <Item value="list" priority="22" />
+      <Item value="string" priority="34" />
+      <Item value="ShiftAndSessionWiseStudentSearch`0" priority="2" />
+      <Item value="using" priority="2" />
+      <Item value="System" priority="2" />
+      <Item value="roll" priority="3" />
+      <Item value="txtId" priority="4" />
+      <Item value="shift" priority="2" />
+      <Item value="_session" priority="1" />
+      <Item value="txtSession" priority="0" />
+      <Item value="rpt" priority="16" />
+      <Item value="reportViewr" priority="7" />
+      <Item value="CrystalDecisions" priority="0" />
+      <Item value="CrystalReports" priority="0" />
+      <Item value="Engine" priority="0" />
+      <Item value="public" priority="45" />
+      <Item value="FillErrorEventArgs`0" priority="1" />
+      <Item value="cbxGender" priority="7" />
+      <Item value="Gender_Report`0" priority="1" />
+      <Item value="CrystalreportViewer`0" priority="2" />
+      <Item value="txtRoll" priority="1" />
+      <Item value="reportviewer" priority="1" />
+      <Item value="Gender_Wise_Search`0" priority="0" />
+      <Item value="cbxSemester" priority="3" />
+      <Item value="DepartmentInfo`0" priority="0" />
+      <Item value="SexInfo`0" priority="1" />
+      <Item value="gen" priority="10" />
+      <Item value="List" priority="20" />
+      <Item value="glist" priority="3" />
+      <Item value="ShiftInfo`0" priority="1" />
+      <Item value="sft" priority="2" />
+      <Item value="slist" priority="0" />
+      <Item value="SemesterInfo`0" priority="2" />
+      <Item value="sem" priority="3" />
+      <Item value="smlst" priority="1" />
+      <Item value="Semester_Report`0" priority="0" />
+      <Item value="InRowChangingEventException`0" priority="0" />
+      <Item value="report" priority="1" />
+      <Item value="Semester_Wise_Search`0" priority="0" />
+      <Item value="cbxBlood" priority="7" />
+      <Item value="BloodInfo`0" priority="5" />
+      <Item value="bld" priority="2" />
+      <Item value="blist" priority="0" />
+      <Item value="Blood_Group_Wise_Report`0" priority="0" />
+      <Item value="Blood_Report`0" priority="0" />
+      <Item value="components" priority="0" />
+      <Item value="bid" priority="0" />
+      <Item value="reportViewer" priority="1" />
+      <Item value="DataGridView`0" priority="0" />
+      <Item value="lsit" priority="0" />
+      <Item value="std" priority="14" />
+      <Item value="NameWiseStudentSearch`0" priority="0" />
+      <Item value="txtName" priority="8" />
+      <Item value="id" priority="4" />
+      <Item value="name" priority="1" />
+      <Item value="mc" priority="8" />
+      <Item value="SP_STUDENTGRIDVIEW_Result`0" priority="0" />
+      <Item value="STUDENTEntities`0" priority="19" />
+      <Item value="studentId" priority="0" />
+      <Item value="stuentName" priority="0" />
+      <Item value="return" priority="14" />
+      <Item value="q" priority="16" />
+      <Item value="dataGridView1" priority="3" />
+      <Item value="DepartmentWiseStudentSearch`0" priority="0" />
+      <Item value="comboBox2" priority="1" />
+      <Item value="textBox1" priority="0" />
+      <Item value="did" priority="1" />
+      <Item value="SP_DEPARMENT_WISE_REPORT_Result`0" priority="0" />
+      <Item value="StudentManagementSystem" priority="0" />
+      <Item value="mg" priority="0" />
+      <Item value="Designation_Info`0" priority="0" />
+      <Item value="from" priority="12" />
+      <Item value="gf" priority="13" />
+      <Item value="select" priority="10" />
+      <Item value="sf" priority="0" />
+      <Item value="cbxDesignation" priority="6" />
+      <Item value="Add_Teacher`0" priority="0" />
+      <Item value="TEACHER_INFO`0" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="tb" priority="26" />
+      <Item value="cbxDepartment" priority="5" />
+      <Item value="cbxType" priority="19" />
+      <Item value="txtContact" priority="3" />
+      <Item value="txtAddress" priority="3" />
+      <Item value="contex" priority="1" />
+      <Item value="MessageBox`0" priority="3" />
+      <Item value="Type_Info`0" priority="1" />
+      <Item value="tp" priority="1" />
+      <Item value="AppDomainSetup`0" priority="0" />
+      <Item value="DateTime`0" priority="1" />
+      <Item value="StudentView`0" priority="5" />
+      <Item value="join" priority="16" />
+      <Item value="student" priority="10" />
+      <Item value="dept" priority="1" />
+      <Item value="sh" priority="1" />
+      <Item value="sex" priority="1" />
+      <Item value="bl" priority="0" />
+      <Item value="foreach" priority="2" />
+      <Item value="item" priority="21" />
+      <Item value="STUDENTID" priority="1" />
+      <Item value="stv" priority="13" />
+      <Item value="NAME" priority="1" />
+      <Item value="DateOfBirth" priority="0" />
+      <Item value="SexType" priority="1" />
+      <Item value="SESSION" priority="0" />
+      <Item value="Semester" priority="0" />
+      <Item value="DeptName" priority="1" />
+      <Item value="BloodGroupName" priority="2" />
+      <Item value="Contact" priority="0" />
+      <Item value="ADDRESS" priority="1" />
+      <Item value="Shift_Name" priority="2" />
+      <Item value="set" priority="1" />
+      <Item value="get" priority="1" />
+      <Item value="on" priority="9" />
+      <Item value="tchr" priority="5" />
+      <Item value="equals" priority="9" />
+      <Item value="dpt" priority="0" />
+      <Item value="dsg" priority="0" />
+      <Item value="gdr" priority="0" />
+      <Item value="sv" priority="10" />
+      <Item value="TEACHER_ID" priority="0" />
+      <Item value="Designation_Name" priority="0" />
+      <Item value="Type_Name" priority="1" />
+      <Item value="CONTACT_NO" priority="0" />
+      <Item value="TeacherView`0" priority="2" />
+      <Item value="FillGridView`0" priority="2" />
+      <Item value="BOOK_INFO`0" priority="3" />
+      <Item value="txtID" priority="3" />
+      <Item value="cbxEdition" priority="6" />
+      <Item value="cbxLanguage" priority="6" />
+      <Item value="cbxPublisher" priority="6" />
+      <Item value="txtWriter" priority="6" />
+      <Item value="txtPublishYear" priority="3" />
+      <Item value="txtQuantity" priority="3" />
+      <Item value="Publisher_Info`0" priority="2" />
+      <Item value="book" priority="12" />
+      <Item value="pub" priority="1" />
+      <Item value="typ" priority="2" />
+      <Item value="Edition_Info`0" priority="1" />
+      <Item value="ed" priority="1" />
+      <Item value="lng" priority="1" />
+      <Item value="bk" priority="13" />
+      <Item value="BOOK_ID" priority="0" />
+      <Item value="BOOK_NAME" priority="0" />
+      <Item value="WRITER" priority="0" />
+      <Item value="Publisher_Name" priority="0" />
+      <Item value="PUBLISHING_YEAR" priority="0" />
+      <Item value="Language_Name" priority="0" />
+      <Item value="QUANTITY" priority="0" />
+      <Item value="Edition_Name" priority="0" />
+      <Item value="bi" priority="0" />
+      <Item value="bv" priority="6" />
+      <Item value="Book_View`0" priority="0" />
+      <Item value="dgvBookInfo" priority="0" />
+      <Item value="Book_Type_Info`0" priority="3" />
+      <Item value="Language_Id`0" priority="0" />
+      <Item value="x" priority="1" />
+      <Item value="txtSearchBook" priority="1" />
+      <Item value="MainForm`0" priority="3" />
+      <Item value="mf" priority="3" />
+      <Item value="false" priority="1" />
+      <Item value="null" priority="5" />
+      <Item value="DataTableClearEventArgs`0" priority="0" />
+      <Item value="Clear`0" priority="1" />
+      <Item value="Button`0" priority="0" />
+      <Item value="MessageBoxButtons`0" priority="0" />
+      <Item value="MessageBoxIcon`0" priority="0" />
+      <Item value="txtSearchId" priority="2" />
+      <Item value="ClearText`0" priority="0" />
+      <Item value="txtTypeId" priority="2" />
+      <Item value="txtTypeName" priority="1" />
+      <Item value="BookTypeView`0" priority="1" />
+      <Item value="dgvBookType" priority="0" />
+      <Item value="Add_Type`0" priority="0" />
+      <Item value="FillDataGrid`0" priority="0" />
+      <Item value="Source`0" priority="0" />
+      <Item value="src" priority="0" />
+      <Item value="cbxSource" priority="3" />
+      <Item value="txtISBN" priority="0" />
+      <Item value="txtClassification" priority="0" />
+      <Item value="cbxSupplier" priority="0" />
+      <Item value="txtSupplier" priority="0" />
+      <Item value="txtCluePage" priority="0" />
+      <Item value="dteEntryDate" priority="0" />
+      <Item value="decimal" priority="0" />
+      <Item value="scr" priority="0" />
+      <Item value="Isbn_No" priority="0" />
+      <Item value="Classification_No" priority="0" />
+      <Item value="Entry_Date" priority="0" />
+      <Item value="Source_Name" priority="0" />
+      <Item value="Supplier" priority="0" />
+      <Item value="Clue_Page" priority="0" />
+      <Item value="mn" priority="0" />
+      <Item value="this" priority="0" />
+      <Item value="LoginForm`0" priority="1" />
+      <Item value="timer1" priority="5" />
+      <Item value="void" priority="0" />
+      <Item value="Show`0" priority="2" />
+      <Item value="Timer`0" priority="0" />
+      <Item value="if" priority="0" />
+      <Item value="lblMgs" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32`0" priority="48" />
+      <Item value="DBNull" priority="0" />
+      <Item value="ToDecimal`0" priority="0" />
+      <Item value="ToDateTime`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="57" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Trim`0" priority="33" />
+      <Item value="ToString`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.ShiftWiseStudentReport">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.ManagementClass">
+      <Item value="GetAllShift`0" priority="0" />
+      <Item value="GetAllGendar`0" priority="0" />
+      <Item value="GetAllSemester`0" priority="0" />
+      <Item value="GetAllBloodGroup`0" priority="0" />
+      <Item value="GetAllDepartment`0" priority="0" />
+      <Item value="GetAllStudentInformation`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="DisplayMember" priority="11" />
+      <Item value="ValueMember" priority="10" />
+      <Item value="DataSource" priority="10" />
+      <Item value="SelectedValue" priority="35" />
+      <Item value="Text" priority="2" />
+      <Item value="Sorted" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.ShiftAndSessionWiseStudentSearch">
+      <Item value="SetParameterValue`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CrystalDecisions.Windows.Forms.CrystalReportViewer">
+      <Item value="ReportSource" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Gender_Report">
+      <Item value="SetParameterValue`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.CrystalreportViewer">
+      <Item value="crystalReportViewer1" priority="2" />
+      <Item value="Show`0" priority="1" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Gender_Wise_Search">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.SexInfo">
+      <Item value="SexId" priority="2" />
+      <Item value="SexType" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="AddRange`0" priority="5" />
+      <Item value="Add`0" priority="9" />
+      <Item value="Sort`0" priority="0" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="Where`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.ShiftInfo">
+      <Item value="Shift_Name" priority="2" />
+      <Item value="ShiftId" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.SemesterInfo">
+      <Item value="Id" priority="1" />
+      <Item value="Semester" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Semester_Report">
+      <Item value="SetParameterValue`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Semester_Wise_Search">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.BloodInfo">
+      <Item value="Id" priority="2" />
+      <Item value="BloodGroupName" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Blood_Group_Wise_Report">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Blood_Report">
+      <Item value="SetParameterValue`0" priority="0" />
+      <Item value="Clone`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="DataSource" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.STUDENTEntities">
+      <Item value="SP_STUDENTGRIDVIEW`0" priority="1" />
+      <Item value="SP_STUDENTINFOSEARCH`0" priority="2" />
+      <Item value="SP_DEPARMENT_WISE_REPORT`0" priority="0" />
+      <Item value="Designation_Info" priority="2" />
+      <Item value="AddToTEACHER_INFO`0" priority="2" />
+      <Item value="SaveChanges`0" priority="6" />
+      <Item value="Type_Info" priority="2" />
+      <Item value="STUDENTINFOes" priority="0" />
+      <Item value="DepartmentInfoes" priority="1" />
+      <Item value="ShiftInfoes" priority="1" />
+      <Item value="SemesterInfoes" priority="0" />
+      <Item value="SexInfoes" priority="1" />
+      <Item value="BloodInfoes" priority="1" />
+      <Item value="TEACHER_INFO" priority="2" />
+      <Item value="AddToBOOK_INFO`0" priority="0" />
+      <Item value="BOOK_INFO" priority="2" />
+      <Item value="Publisher_Info" priority="1" />
+      <Item value="Edition_Info" priority="1" />
+      <Item value="Language_Id" priority="2" />
+      <Item value="Book_Type_Info" priority="2" />
+      <Item value="DeleteObject`0" priority="1" />
+      <Item value="AddToBook_Type_Info`0" priority="0" />
+      <Item value="Sources" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.NameWiseStudentSearch">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectResult`1">
+      <Item value="ToList`1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.DepartmentWiseStudentSearch">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="ToList`1" priority="12" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Add_Teacher">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.TEACHER_INFO">
+      <Item value="TEACHER_ID" priority="4" />
+      <Item value="NAME" priority="3" />
+      <Item value="DEPARTMENT_ID" priority="3" />
+      <Item value="SHIFT_ID" priority="3" />
+      <Item value="DESIGNATION_ID" priority="3" />
+      <Item value="GENDER_ID" priority="3" />
+      <Item value="TYPE_ID" priority="3" />
+      <Item value="BLOOD_ID" priority="3" />
+      <Item value="CONTACT_NO" priority="3" />
+      <Item value="ADDRESS" priority="3" />
+      <Item value="ShiftInfo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.STUDENTINFO">
+      <Item value="DeptId" priority="0" />
+      <Item value="ShiftId" priority="0" />
+      <Item value="SemesterId" priority="0" />
+      <Item value="GendarId" priority="0" />
+      <Item value="BloodId" priority="0" />
+      <Item value="STUDENTID" priority="0" />
+      <Item value="NAME" priority="0" />
+      <Item value="DateOfBirth" priority="0" />
+      <Item value="Contact" priority="0" />
+      <Item value="ADDRESS" priority="0" />
+      <Item value="SESSION" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.DepartmentInfo">
+      <Item value="DepartmentId" priority="1" />
+      <Item value="DeptName" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.StudentView">
+      <Item value="Studentid" priority="1" />
+      <Item value="Name" priority="0" />
+      <Item value="DateOfBirth" priority="0" />
+      <Item value="SexType" priority="0" />
+      <Item value="Session" priority="0" />
+      <Item value="Semester" priority="0" />
+      <Item value="DeptName" priority="1" />
+      <Item value="Blood" priority="1" />
+      <Item value="Contact" priority="0" />
+      <Item value="Address" priority="0" />
+      <Item value="ShiftName" priority="0" />
+      <Item value="TeacherId" priority="0" />
+      <Item value="Tname" priority="0" />
+      <Item value="DptName" priority="0" />
+      <Item value="Designation" priority="0" />
+      <Item value="Tshiftname" priority="0" />
+      <Item value="Type" priority="0" />
+      <Item value="Gender" priority="0" />
+      <Item value="BloodGroup" priority="0" />
+      <Item value="Tcontact" priority="0" />
+      <Item value="Taddress" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Type_Info">
+      <Item value="Type_Id" priority="1" />
+      <Item value="Type_Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Designation_Info">
+      <Item value="Designation_Id" priority="0" />
+      <Item value="Designation_Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.UIForm.Add_Book_Info">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.BOOK_INFO">
+      <Item value="BOOK_ID" priority="4" />
+      <Item value="BOOK_NAME" priority="3" />
+      <Item value="BOOK_TYPE_ID" priority="5" />
+      <Item value="EDITION_ID" priority="4" />
+      <Item value="LANGUAGE_ID" priority="4" />
+      <Item value="PPUBLISHER_ID" priority="4" />
+      <Item value="WRITER" priority="3" />
+      <Item value="PUBLISHING_YEAR" priority="3" />
+      <Item value="QUANTITY" priority="3" />
+      <Item value="Isbn_No" priority="1" />
+      <Item value="Classification_No" priority="1" />
+      <Item value="Source" priority="1" />
+      <Item value="Supplier" priority="1" />
+      <Item value="Clue_Page" priority="1" />
+      <Item value="Entry_Date" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Publisher_Info">
+      <Item value="Publisher_Id" priority="0" />
+      <Item value="Publisher_Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Edition_Info">
+      <Item value="Edition_Id" priority="0" />
+      <Item value="Edition_Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Language_Id">
+      <Item value="Language_Id1" priority="0" />
+      <Item value="Language_Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.ManagingClass.Book_View">
+      <Item value="BookId" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="Writter" priority="0" />
+      <Item value="Publisher" priority="0" />
+      <Item value="Publishing_Year" priority="0" />
+      <Item value="Language" priority="0" />
+      <Item value="Type" priority="0" />
+      <Item value="Quantity" priority="0" />
+      <Item value="Edition" priority="0" />
+      <Item value="ISBN" priority="0" />
+      <Item value="Classification_No" priority="0" />
+      <Item value="Entry_Date" priority="0" />
+      <Item value="Source" priority="0" />
+      <Item value="Supplier" priority="0" />
+      <Item value="Clue_Page" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
+      <Item value="ToList`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="FirstOrDefault`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.MainForm">
+      <Item value="Visible" priority="0" />
+      <Item value="Hide`0" priority="3" />
+      <Item value="ShowDialog`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxButtons">
+      <Item value="OK" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxIcon">
+      <Item value="None" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Book_Type_Info">
+      <Item value="Type_Id" priority="2" />
+      <Item value="Type_Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.UIForm.Add_Type">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.Source">
+      <Item value="Source_Id" priority="0" />
+      <Item value="Source_Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StudentManagementSystem.LoginForm">
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Timer">
+      <Item value="Start`0" priority="0" />
+      <Item value="Stop`0" priority="0" />
+      <Item value="Dispose`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:CrystalReport/f:ShiftAndSessionWiseStudentSearch.cs" caret="5382" fromTop="23" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ReportForm/f:CrystalreportViewer.Designer.cs" caret="136" fromTop="4" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:SearchingForm/f:NameWiseStudentSearch.Designer.cs" caret="697" fromTop="0" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:SearchingForm/f:DepartmentWiseStudentSearch.Designer.cs" caret="4828" fromTop="61" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:SearchingForm/f:DepartmentWiseStudentSearch.cs" caret="1450" fromTop="18" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:SearchingForm/f:NameWiseStudentSearch.cs" caret="670" fromTop="7" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ReportForm/f:Semester Wise Search.cs" caret="567" fromTop="3" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ReportForm/f:Blood Group Wise Report.cs" caret="1224" fromTop="12" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ReportForm/f:Gender Wise Search.cs" caret="1198" fromTop="12" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:App.Config" caret="0" fromTop="0" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ReportForm/f:ShiftWiseStudentReport.cs" caret="1215" fromTop="9" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:MainForm.Designer.cs" caret="16510" fromTop="2" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:BookTypeView.cs" caret="269" fromTop="9" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:Add Type.cs" caret="1305" fromTop="46" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:Program.cs" caret="0" fromTop="0" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:Add Teacher.Designer.cs" caret="15570" fromTop="343" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:Student.Designer.cs" caret="6136" fromTop="0" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:Add Teacher.cs" caret="312" fromTop="12" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:AddStudentInfo.Designer.cs" caret="0" fromTop="0" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:Book View.cs" caret="647" fromTop="15" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:Add Book Info.cs" caret="1639" fromTop="17" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:TeacherView.cs" caret="134" fromTop="6" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:MainForm.cs" caret="2835" fromTop="12" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:LoginForm.cs" caret="1534" fromTop="8" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:ManagementClass.cs" caret="3423" fromTop="100" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:StudentView.cs" caret="146" fromTop="3" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:AddStudentInfo.cs" caret="780" fromTop="15" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:LoginForm.Designer.cs" caret="4080" fromTop="12" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:ManagementClass.cs" caret="10105" fromTop="5" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:ManagementClass.cs" caret="10519" fromTop="17" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:Add Type.cs" caret="1085" fromTop="14" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:Add Type.cs" caret="863" fromTop="12" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:Add Type.cs" caret="1305" fromTop="12" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:Add Type.cs" caret="1328" fromTop="46" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:Add Book Info.cs" caret="2400" fromTop="15" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:ManagementClass.cs" caret="10750" fromTop="26" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:ManagementClass.cs" caret="10728" fromTop="14" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:Add Book Info.cs" caret="2695" fromTop="16" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:Add Book Info.cs" caret="6237" fromTop="19" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:UIForm/f:Add Book Info.cs" caret="1560" fromTop="10" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:Book View.cs" caret="861" fromTop="22" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:ManagementClass.cs" caret="7423" fromTop="8" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:ManagementClass.cs" caret="8301" fromTop="13" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:ManagementClass.cs" caret="9054" fromTop="22" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:MainForm.cs" caret="1307" fromTop="15" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:TeacherView.cs" caret="134" fromTop="6" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:TeacherView.cs" caret="134" fromTop="6" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:StudentView.cs" caret="1585" fromTop="23" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:StudentView.cs" caret="1095" fromTop="17" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/d:ManagingClass/f:StudentView.cs" caret="1001" fromTop="21" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:LoginForm.cs" caret="2332" fromTop="13" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:MainForm.cs" caret="2835" fromTop="12" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:LoginForm.cs" caret="2332" fromTop="6" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:LoginForm.cs" caret="2283" fromTop="2" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:LoginForm.cs" caret="2320" fromTop="10" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:LoginForm.cs" caret="2308" fromTop="20" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:LoginForm.Designer.cs" caret="4080" fromTop="12" />
+      <File id="1BA198A9-45B3-4892-B99F-D9E9B8C9BE73/f:LoginForm.cs" caret="1534" fromTop="8" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

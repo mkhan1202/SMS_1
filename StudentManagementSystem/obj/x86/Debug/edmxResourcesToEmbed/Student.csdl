@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="STUDENTModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="STUDENTEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="SP_STUDENTGRIDVIEW" ReturnType="Collection(STUDENTModel.SP_STUDENTGRIDVIEW_Result)" />
+    <FunctionImport Name="SP_STUDENTINFOSEARCH" ReturnType="Collection(STUDENTModel.SP_STUDENTINFOSEARCH_Result)">
+      <Parameter Name="ROLL" Mode="In" Type="Int32" />
+      <Parameter Name="NAME" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_DEPARMENT_WISE_REPORT" ReturnType="Collection(STUDENTModel.SP_DEPARMENT_WISE_REPORT_Result)">
+      <Parameter Name="ROLL" Mode="In" Type="Int32" />
+      <Parameter Name="did" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="BloodInfoes" EntityType="STUDENTModel.BloodInfo" />
+    <EntitySet Name="BOOK_INFO" EntityType="STUDENTModel.BOOK_INFO" />
+    <EntitySet Name="Book_Type_Info" EntityType="STUDENTModel.Book_Type_Info" />
+    <EntitySet Name="CompanyInfoes" EntityType="STUDENTModel.CompanyInfo" />
+    <EntitySet Name="DepartmentInfoes" EntityType="STUDENTModel.DepartmentInfo" />
+    <EntitySet Name="Designation_Info" EntityType="STUDENTModel.Designation_Info" />
+    <EntitySet Name="Edition_Info" EntityType="STUDENTModel.Edition_Info" />
+    <EntitySet Name="Language_Info" EntityType="STUDENTModel.Language_Info" />
+    <EntitySet Name="Publisher_Info" EntityType="STUDENTModel.Publisher_Info" />
+    <EntitySet Name="SemesterInfoes" EntityType="STUDENTModel.SemesterInfo" />
+    <EntitySet Name="SexInfoes" EntityType="STUDENTModel.SexInfo" />
+    <EntitySet Name="ShiftInfoes" EntityType="STUDENTModel.ShiftInfo" />
+    <EntitySet Name="Sources" EntityType="STUDENTModel.Source" />
+    <EntitySet Name="STUDENTINFOes" EntityType="STUDENTModel.STUDENTINFO" />
+    <EntitySet Name="sysdiagrams" EntityType="STUDENTModel.sysdiagram" />
+    <EntitySet Name="TEACHER_INFO" EntityType="STUDENTModel.TEACHER_INFO" />
+    <EntitySet Name="Type_Info" EntityType="STUDENTModel.Type_Info" />
+    <EntitySet Name="UserLogins" EntityType="STUDENTModel.UserLogin" />
+    <AssociationSet Name="FK_STUDENTINFO_BloodInfo" Association="STUDENTModel.FK_STUDENTINFO_BloodInfo">
+      <End Role="BloodInfo" EntitySet="BloodInfoes" />
+      <End Role="STUDENTINFO" EntitySet="STUDENTINFOes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TEACHER_INFO_BloodInfo" Association="STUDENTModel.FK_TEACHER_INFO_BloodInfo">
+      <End Role="BloodInfo" EntitySet="BloodInfoes" />
+      <End Role="TEACHER_INFO" EntitySet="TEACHER_INFO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_INFO_Book_Type_Info" Association="STUDENTModel.FK_BOOK_INFO_Book_Type_Info">
+      <End Role="Book_Type_Info" EntitySet="Book_Type_Info" />
+      <End Role="BOOK_INFO" EntitySet="BOOK_INFO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_INFO_Edition_Info" Association="STUDENTModel.FK_BOOK_INFO_Edition_Info">
+      <End Role="Edition_Info" EntitySet="Edition_Info" />
+      <End Role="BOOK_INFO" EntitySet="BOOK_INFO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_INFO_Publisher_Info" Association="STUDENTModel.FK_BOOK_INFO_Publisher_Info">
+      <End Role="Publisher_Info" EntitySet="Publisher_Info" />
+      <End Role="BOOK_INFO" EntitySet="BOOK_INFO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOOK_INFO_Source" Association="STUDENTModel.FK_BOOK_INFO_Source">
+      <End Role="Source" EntitySet="Sources" />
+      <End Role="BOOK_INFO" EntitySet="BOOK_INFO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_STUDENTINFO_DepartmentInfo1" Association="STUDENTModel.FK_STUDENTINFO_DepartmentInfo1">
+      <End Role="DepartmentInfo" EntitySet="DepartmentInfoes" />
+      <End Role="STUDENTINFO" EntitySet="STUDENTINFOes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TEACHER_INFO_DepartmentInfo" Association="STUDENTModel.FK_TEACHER_INFO_DepartmentInfo">
+      <End Role="DepartmentInfo" EntitySet="DepartmentInfoes" />
+      <End Role="TEACHER_INFO" EntitySet="TEACHER_INFO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TEACHER_INFO_Designation_Info" Association="STUDENTModel.FK_TEACHER_INFO_Designation_Info">
+      <End Role="Designation_Info" EntitySet="Designation_Info" />
+      <End Role="TEACHER_INFO" EntitySet="TEACHER_INFO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_STUDENTINFO_DepartmentInfo" Association="STUDENTModel.FK_STUDENTINFO_DepartmentInfo">
+      <End Role="SemesterInfo" EntitySet="SemesterInfoes" />
+      <End Role="STUDENTINFO" EntitySet="STUDENTINFOes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_STUDENTINFO_SexInfo" Association="STUDENTModel.FK_STUDENTINFO_SexInfo">
+      <End Role="SexInfo" EntitySet="SexInfoes" />
+      <End Role="STUDENTINFO" EntitySet="STUDENTINFOes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TEACHER_INFO_SexInfo" Association="STUDENTModel.FK_TEACHER_INFO_SexInfo">
+      <End Role="SexInfo" EntitySet="SexInfoes" />
+      <End Role="TEACHER_INFO" EntitySet="TEACHER_INFO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_STUDENTINFO_SHIFTID" Association="STUDENTModel.FK_STUDENTINFO_SHIFTID">
+      <End Role="ShiftInfo" EntitySet="ShiftInfoes" />
+      <End Role="STUDENTINFO" EntitySet="STUDENTINFOes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TEACHER_INFO_ShiftInfo" Association="STUDENTModel.FK_TEACHER_INFO_ShiftInfo">
+      <End Role="ShiftInfo" EntitySet="ShiftInfoes" />
+      <End Role="TEACHER_INFO" EntitySet="TEACHER_INFO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TEACHER_INFO_Type_Info" Association="STUDENTModel.FK_TEACHER_INFO_Type_Info">
+      <End Role="Type_Info" EntitySet="Type_Info" />
+      <End Role="TEACHER_INFO" EntitySet="TEACHER_INFO" />
+    </AssociationSet>
+  </EntityContainer>
+  <ComplexType Name="SP_STUDENTGRIDVIEW_Result">
+    <Property Type="Int32" Name="RollNo" Nullable="false" />
+    <Property Type="String" Name="NAME" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DeptName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Shift_Name" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Semester" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="SexType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ADDRESS" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="DateOfBirth" Nullable="true" />
+    <Property Type="String" Name="BloodGroupName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="Contact" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="SP_STUDENTINFOSEARCH_Result">
+    <Property Type="Int32" Name="RollNo" Nullable="false" />
+    <Property Type="String" Name="NAME" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DeptName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Shift_Name" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Semester" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="SexType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ADDRESS" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="DateOfBirth" Nullable="true" />
+    <Property Type="String" Name="BloodGroupName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="Contact" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="SP_DEPARMENT_WISE_REPORT_Result">
+    <Property Type="Int32" Name="Roll" Nullable="false" />
+    <Property Type="String" Name="NAME" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="SESSION" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="SHIFT" Nullable="true" MaxLength="9" />
+    <Property Type="String" Name="DEPARTMENT" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="SEMESTER" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="BIRTH_DATE" Nullable="true" />
+    <Property Type="String" Name="BLOOD_GROUP" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="GENDER" Nullable="false" MaxLength="6" />
+    <Property Type="Int32" Name="CONTACT" Nullable="true" />
+    <Property Type="String" Name="ADDRESS" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <EntityType Name="BloodInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="BloodGroupName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="STUDENTINFOes" Relationship="STUDENTModel.FK_STUDENTINFO_BloodInfo" FromRole="BloodInfo" ToRole="STUDENTINFO" />
+    <NavigationProperty Name="TEACHER_INFO" Relationship="STUDENTModel.FK_TEACHER_INFO_BloodInfo" FromRole="BloodInfo" ToRole="TEACHER_INFO" />
+  </EntityType>
+  <EntityType Name="BOOK_INFO">
+    <Key>
+      <PropertyRef Name="BOOK_ID" />
+    </Key>
+    <Property Type="Int32" Name="BOOK_ID" Nullable="false" />
+    <Property Type="String" Name="BOOK_NAME" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="BOOK_TYPE_ID" />
+    <Property Type="String" Name="WRITER" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="PPUBLISHER_ID" />
+    <Property Type="Int32" Name="PUBLISHING_YEAR" />
+    <Property Type="Int32" Name="EDITION_ID" />
+    <Property Type="Int32" Name="LANGUAGE_ID" />
+    <Property Type="Int32" Name="QUANTITY" />
+    <Property Type="Int32" Name="Isbn_No" />
+    <Property Type="Decimal" Name="Classification_No" Precision="18" Scale="0" />
+    <Property Type="String" Name="Supplier" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Source" />
+    <Property Type="Int32" Name="Clue_Page" />
+    <Property Type="Int32" Name="Total_Page" />
+    <Property Type="DateTime" Name="Entry_Date" />
+    <NavigationProperty Name="Book_Type_Info" Relationship="STUDENTModel.FK_BOOK_INFO_Book_Type_Info" FromRole="BOOK_INFO" ToRole="Book_Type_Info" />
+    <NavigationProperty Name="Edition_Info" Relationship="STUDENTModel.FK_BOOK_INFO_Edition_Info" FromRole="BOOK_INFO" ToRole="Edition_Info" />
+    <NavigationProperty Name="Publisher_Info" Relationship="STUDENTModel.FK_BOOK_INFO_Publisher_Info" FromRole="BOOK_INFO" ToRole="Publisher_Info" />
+    <NavigationProperty Name="Source1" Relationship="STUDENTModel.FK_BOOK_INFO_Source" FromRole="BOOK_INFO" ToRole="Source" />
+  </EntityType>
+  <EntityType Name="Book_Type_Info">
+    <Key>
+      <PropertyRef Name="Type_Id" />
+    </Key>
+    <Property Type="Int32" Name="Type_Id" Nullable="false" />
+    <Property Type="String" Name="Type_Name" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="BOOK_INFO" Relationship="STUDENTModel.FK_BOOK_INFO_Book_Type_Info" FromRole="Book_Type_Info" ToRole="BOOK_INFO" />
+  </EntityType>
+  <EntityType Name="CompanyInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="CoName" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="DepartmentInfo">
+    <Key>
+      <PropertyRef Name="DepartmentId" />
+    </Key>
+    <Property Type="Int32" Name="DepartmentId" Nullable="false" />
+    <Property Type="String" Name="DeptName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="STUDENTINFOes" Relationship="STUDENTModel.FK_STUDENTINFO_DepartmentInfo1" FromRole="DepartmentInfo" ToRole="STUDENTINFO" />
+    <NavigationProperty Name="TEACHER_INFO" Relationship="STUDENTModel.FK_TEACHER_INFO_DepartmentInfo" FromRole="DepartmentInfo" ToRole="TEACHER_INFO" />
+  </EntityType>
+  <EntityType Name="Designation_Info">
+    <Key>
+      <PropertyRef Name="Designation_Id" />
+    </Key>
+    <Property Type="Int32" Name="Designation_Id" Nullable="false" />
+    <Property Type="String" Name="Designation_Name" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TEACHER_INFO" Relationship="STUDENTModel.FK_TEACHER_INFO_Designation_Info" FromRole="Designation_Info" ToRole="TEACHER_INFO" />
+  </EntityType>
+  <EntityType Name="Edition_Info">
+    <Key>
+      <PropertyRef Name="Edition_Id" />
+    </Key>
+    <Property Type="Int32" Name="Edition_Id" Nullable="false" />
+    <Property Type="String" Name="Edition_Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="BOOK_INFO" Relationship="STUDENTModel.FK_BOOK_INFO_Edition_Info" FromRole="Edition_Info" ToRole="BOOK_INFO" />
+  </EntityType>
+  <EntityType Name="Language_Info">
+    <Key>
+      <PropertyRef Name="Language_Id" />
+    </Key>
+    <Property Type="Int32" Name="Language_Id" Nullable="false" />
+    <Property Type="String" Name="Language_Name" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Publisher_Info">
+    <Key>
+      <PropertyRef Name="Publisher_Id" />
+    </Key>
+    <Property Type="Int32" Name="Publisher_Id" Nullable="false" />
+    <Property Type="String" Name="Publisher_Name" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="BOOK_INFO" Relationship="STUDENTModel.FK_BOOK_INFO_Publisher_Info" FromRole="Publisher_Info" ToRole="BOOK_INFO" />
+  </EntityType>
+  <EntityType Name="SemesterInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Semester" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="STUDENTINFOes" Relationship="STUDENTModel.FK_STUDENTINFO_DepartmentInfo" FromRole="SemesterInfo" ToRole="STUDENTINFO" />
+  </EntityType>
+  <EntityType Name="SexInfo">
+    <Key>
+      <PropertyRef Name="SexId" />
+    </Key>
+    <Property Type="Int32" Name="SexId" Nullable="false" />
+    <Property Type="String" Name="SexType" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="STUDENTINFOes" Relationship="STUDENTModel.FK_STUDENTINFO_SexInfo" FromRole="SexInfo" ToRole="STUDENTINFO" />
+    <NavigationProperty Name="TEACHER_INFO" Relationship="STUDENTModel.FK_TEACHER_INFO_SexInfo" FromRole="SexInfo" ToRole="TEACHER_INFO" />
+  </EntityType>
+  <EntityType Name="ShiftInfo">
+    <Key>
+      <PropertyRef Name="ShiftId" />
+    </Key>
+    <Property Type="Int32" Name="ShiftId" Nullable="false" />
+    <Property Type="String" Name="Shift_Name" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="STUDENTINFOes" Relationship="STUDENTModel.FK_STUDENTINFO_SHIFTID" FromRole="ShiftInfo" ToRole="STUDENTINFO" />
+    <NavigationProperty Name="TEACHER_INFO" Relationship="STUDENTModel.FK_TEACHER_INFO_ShiftInfo" FromRole="ShiftInfo" ToRole="TEACHER_INFO" />
+  </EntityType>
+  <EntityType Name="Source">
+    <Key>
+      <PropertyRef Name="Source_Id" />
+    </Key>
+    <Property Type="Int32" Name="Source_Id" Nullable="false" />
+    <Property Type="String" Name="Source_Name" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="BOOK_INFO" Relationship="STUDENTModel.FK_BOOK_INFO_Source" FromRole="Source" ToRole="BOOK_INFO" />
+  </EntityType>
+  <EntityType Name="STUDENTINFO">
+    <Key>
+      <PropertyRef Name="STUDENTID" />
+    </Key>
+    <Property Type="Int32" Name="STUDENTID" Nullable="false" />
+    <Property Type="String" Name="NAME" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SESSION" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ADDRESS" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ShiftId" />
+    <Property Type="Int32" Name="GendarId" />
+    <Property Type="Int32" Name="SemesterId" />
+    <Property Type="Int32" Name="Contact" />
+    <Property Type="Int32" Name="DeptId" />
+    <Property Type="DateTime" Name="DateOfBirth" />
+    <Property Type="Int32" Name="BloodId" />
+    <NavigationProperty Name="BloodInfo" Relationship="STUDENTModel.FK_STUDENTINFO_BloodInfo" FromRole="STUDENTINFO" ToRole="BloodInfo" />
+    <NavigationProperty Name="DepartmentInfo" Relationship="STUDENTModel.FK_STUDENTINFO_DepartmentInfo1" FromRole="STUDENTINFO" ToRole="DepartmentInfo" />
+    <NavigationProperty Name="SemesterInfo" Relationship="STUDENTModel.FK_STUDENTINFO_DepartmentInfo" FromRole="STUDENTINFO" ToRole="SemesterInfo" />
+    <NavigationProperty Name="SexInfo" Relationship="STUDENTModel.FK_STUDENTINFO_SexInfo" FromRole="STUDENTINFO" ToRole="SexInfo" />
+    <NavigationProperty Name="ShiftInfo" Relationship="STUDENTModel.FK_STUDENTINFO_SHIFTID" FromRole="STUDENTINFO" ToRole="ShiftInfo" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Type="String" Name="name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="principal_id" Nullable="false" />
+    <Property Type="Int32" Name="diagram_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="version" />
+    <Property Type="Binary" Name="definition" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TEACHER_INFO">
+    <Key>
+      <PropertyRef Name="TEACHER_ID" />
+    </Key>
+    <Property Type="Int32" Name="TEACHER_ID" Nullable="false" />
+    <Property Type="String" Name="NAME" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="DEPARTMENT_ID" />
+    <Property Type="Int32" Name="SHIFT_ID" />
+    <Property Type="Int32" Name="DESIGNATION_ID" />
+    <Property Type="Int32" Name="TYPE_ID" />
+    <Property Type="Int32" Name="GENDER_ID" />
+    <Property Type="Int32" Name="BLOOD_ID" />
+    <Property Type="String" Name="CONTACT_NO" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ADDRESS" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="BloodInfo" Relationship="STUDENTModel.FK_TEACHER_INFO_BloodInfo" FromRole="TEACHER_INFO" ToRole="BloodInfo" />
+    <NavigationProperty Name="DepartmentInfo" Relationship="STUDENTModel.FK_TEACHER_INFO_DepartmentInfo" FromRole="TEACHER_INFO" ToRole="DepartmentInfo" />
+    <NavigationProperty Name="Designation_Info" Relationship="STUDENTModel.FK_TEACHER_INFO_Designation_Info" FromRole="TEACHER_INFO" ToRole="Designation_Info" />
+    <NavigationProperty Name="SexInfo" Relationship="STUDENTModel.FK_TEACHER_INFO_SexInfo" FromRole="TEACHER_INFO" ToRole="SexInfo" />
+    <NavigationProperty Name="ShiftInfo" Relationship="STUDENTModel.FK_TEACHER_INFO_ShiftInfo" FromRole="TEACHER_INFO" ToRole="ShiftInfo" />
+    <NavigationProperty Name="Type_Info" Relationship="STUDENTModel.FK_TEACHER_INFO_Type_Info" FromRole="TEACHER_INFO" ToRole="Type_Info" />
+  </EntityType>
+  <EntityType Name="Type_Info">
+    <Key>
+      <PropertyRef Name="Type_Id" />
+    </Key>
+    <Property Type="Int32" Name="Type_Id" Nullable="false" />
+    <Property Type="String" Name="Type_Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TEACHER_INFO" Relationship="STUDENTModel.FK_TEACHER_INFO_Type_Info" FromRole="Type_Info" ToRole="TEACHER_INFO" />
+  </EntityType>
+  <EntityType Name="UserLogin">
+    <Key>
+      <PropertyRef Name="USERNAME" />
+    </Key>
+    <Property Type="String" Name="USERNAME" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PASSWORD" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_STUDENTINFO_BloodInfo">
+    <End Type="STUDENTModel.BloodInfo" Role="BloodInfo" Multiplicity="0..1" />
+    <End Type="STUDENTModel.STUDENTINFO" Role="STUDENTINFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BloodInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="STUDENTINFO">
+        <PropertyRef Name="BloodId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TEACHER_INFO_BloodInfo">
+    <End Type="STUDENTModel.BloodInfo" Role="BloodInfo" Multiplicity="0..1" />
+    <End Type="STUDENTModel.TEACHER_INFO" Role="TEACHER_INFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BloodInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TEACHER_INFO">
+        <PropertyRef Name="BLOOD_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_INFO_Book_Type_Info">
+    <End Type="STUDENTModel.Book_Type_Info" Role="Book_Type_Info" Multiplicity="0..1" />
+    <End Type="STUDENTModel.BOOK_INFO" Role="BOOK_INFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Book_Type_Info">
+        <PropertyRef Name="Type_Id" />
+      </Principal>
+      <Dependent Role="BOOK_INFO">
+        <PropertyRef Name="BOOK_TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_INFO_Edition_Info">
+    <End Type="STUDENTModel.Edition_Info" Role="Edition_Info" Multiplicity="0..1" />
+    <End Type="STUDENTModel.BOOK_INFO" Role="BOOK_INFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Edition_Info">
+        <PropertyRef Name="Edition_Id" />
+      </Principal>
+      <Dependent Role="BOOK_INFO">
+        <PropertyRef Name="EDITION_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_INFO_Publisher_Info">
+    <End Type="STUDENTModel.Publisher_Info" Role="Publisher_Info" Multiplicity="0..1" />
+    <End Type="STUDENTModel.BOOK_INFO" Role="BOOK_INFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publisher_Info">
+        <PropertyRef Name="Publisher_Id" />
+      </Principal>
+      <Dependent Role="BOOK_INFO">
+        <PropertyRef Name="PPUBLISHER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOOK_INFO_Source">
+    <End Type="STUDENTModel.Source" Role="Source" Multiplicity="0..1" />
+    <End Type="STUDENTModel.BOOK_INFO" Role="BOOK_INFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Source">
+        <PropertyRef Name="Source_Id" />
+      </Principal>
+      <Dependent Role="BOOK_INFO">
+        <PropertyRef Name="Source" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_STUDENTINFO_DepartmentInfo1">
+    <End Type="STUDENTModel.DepartmentInfo" Role="DepartmentInfo" Multiplicity="0..1" />
+    <End Type="STUDENTModel.STUDENTINFO" Role="STUDENTINFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DepartmentInfo">
+        <PropertyRef Name="DepartmentId" />
+      </Principal>
+      <Dependent Role="STUDENTINFO">
+        <PropertyRef Name="DeptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TEACHER_INFO_DepartmentInfo">
+    <End Type="STUDENTModel.DepartmentInfo" Role="DepartmentInfo" Multiplicity="0..1" />
+    <End Type="STUDENTModel.TEACHER_INFO" Role="TEACHER_INFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DepartmentInfo">
+        <PropertyRef Name="DepartmentId" />
+      </Principal>
+      <Dependent Role="TEACHER_INFO">
+        <PropertyRef Name="DEPARTMENT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TEACHER_INFO_Designation_Info">
+    <End Type="STUDENTModel.Designation_Info" Role="Designation_Info" Multiplicity="0..1" />
+    <End Type="STUDENTModel.TEACHER_INFO" Role="TEACHER_INFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Designation_Info">
+        <PropertyRef Name="Designation_Id" />
+      </Principal>
+      <Dependent Role="TEACHER_INFO">
+        <PropertyRef Name="DESIGNATION_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_STUDENTINFO_DepartmentInfo">
+    <End Type="STUDENTModel.SemesterInfo" Role="SemesterInfo" Multiplicity="0..1" />
+    <End Type="STUDENTModel.STUDENTINFO" Role="STUDENTINFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SemesterInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="STUDENTINFO">
+        <PropertyRef Name="SemesterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_STUDENTINFO_SexInfo">
+    <End Type="STUDENTModel.SexInfo" Role="SexInfo" Multiplicity="0..1" />
+    <End Type="STUDENTModel.STUDENTINFO" Role="STUDENTINFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SexInfo">
+        <PropertyRef Name="SexId" />
+      </Principal>
+      <Dependent Role="STUDENTINFO">
+        <PropertyRef Name="GendarId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TEACHER_INFO_SexInfo">
+    <End Type="STUDENTModel.SexInfo" Role="SexInfo" Multiplicity="0..1" />
+    <End Type="STUDENTModel.TEACHER_INFO" Role="TEACHER_INFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SexInfo">
+        <PropertyRef Name="SexId" />
+      </Principal>
+      <Dependent Role="TEACHER_INFO">
+        <PropertyRef Name="GENDER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_STUDENTINFO_SHIFTID">
+    <End Type="STUDENTModel.ShiftInfo" Role="ShiftInfo" Multiplicity="0..1" />
+    <End Type="STUDENTModel.STUDENTINFO" Role="STUDENTINFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ShiftInfo">
+        <PropertyRef Name="ShiftId" />
+      </Principal>
+      <Dependent Role="STUDENTINFO">
+        <PropertyRef Name="ShiftId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TEACHER_INFO_ShiftInfo">
+    <End Type="STUDENTModel.ShiftInfo" Role="ShiftInfo" Multiplicity="0..1" />
+    <End Type="STUDENTModel.TEACHER_INFO" Role="TEACHER_INFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ShiftInfo">
+        <PropertyRef Name="ShiftId" />
+      </Principal>
+      <Dependent Role="TEACHER_INFO">
+        <PropertyRef Name="SHIFT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TEACHER_INFO_Type_Info">
+    <End Type="STUDENTModel.Type_Info" Role="Type_Info" Multiplicity="0..1" />
+    <End Type="STUDENTModel.TEACHER_INFO" Role="TEACHER_INFO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Type_Info">
+        <PropertyRef Name="Type_Id" />
+      </Principal>
+      <Dependent Role="TEACHER_INFO">
+        <PropertyRef Name="TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
